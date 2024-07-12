@@ -2,25 +2,32 @@
     just --list
 
 @alex:
-	npx alex README.md
+	bunx alex README.md
+
+@bootstrap:
+    pip install --upgrade pip pip-tools
+    pip install --upgrade --requirement requirements.in
 
 @build:
     just toc
     bundle exec jekyll build
 
 @down:
-    just down
+    docker-compose down
 
 @lint:
     -curlylint _layouts/
-    -npx awesome-lint README.md
+    -bunx awesome-lint README.md
 
 @serve:
     # modd --file=modd.conf
     just up ""
 
-@up *ARGS="-d":
+@start *ARGS="--detach":
+    just up {{ ARGS }}
+
+@up *ARGS:
     docker-compose up {{ ARGS }}
 
 @toc:
-	npx doctoc README.md
+	bunx doctoc README.md
