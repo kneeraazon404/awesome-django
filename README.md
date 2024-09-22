@@ -175,7 +175,6 @@ _For a complete listing of all available packages, see [Django Packages](https:/
 
 ### Editors
 <!--lint ignore awesome-list-item-->
-- [django-ckeditor](https://github.com/shaunsephton/django-ckeditor) - Django admin CKEditor integration.
 - [django-markdownx](https://github.com/adi-/django-markdownx) - Comprehensive Markdown plugin built for Django.
 - [django-markdown-editor](https://github.com/agusmakmun/django-markdown-editor) - Awesome Django Markdown Editor, supported for Bootstrap & Semantic-UI.
 - [django-business-logic](https://github.com/dgk/django-business-logic) - Visual DSL framework for Django.
@@ -201,6 +200,8 @@ _For a complete listing of all available packages, see [Django Packages](https:/
 - [django-shapeshifter](https://github.com/kennethlove/django-shapeshifter) - A class-based view to handle multiple forms in one view.
 
 ### Full-stack frameworks
+
+- [Django-Bridge](https://github.com/django-bridge/django-bridge) - The simple way to build React frontends for Django applications.
 - [ReactPy](https://github.com/reactive-python/reactpy) - It's React, but in Python. Insert dynamically rendered Python into Django templates using the [ReactPy-Django module](https://github.com/reactive-python/reactpy-django).
 - [Reactor](https://github.com/edelvalle/reactor/) - Phoenix LiveView, but for Django.
 - [Sockpuppet](https://sockpuppet.argpar.se/) - Build reactive applications with the Django tooling you already know and love.
@@ -216,6 +217,7 @@ _For a complete listing of all available packages, see [Django Packages](https:/
 - [django-freeze](https://github.com/fabiocaccamo/django-freeze) - Convert your dynamic django site to a static one with one line of code.
 - [django-nh3](https://github.com/marksweb/django-nh3) - Django integration with for nh3 and is an alternative for django-bleach.
 - [Weblate](https://github.com/WeblateOrg/weblate) - Weblate is a copylefted libre software web-based continuous localization system, used by over 2500 libre projects and companies in more than 165 countries.
+- [Django-Classy-Doc](https://github.com/nanuxbe/django-classy-doc) - Document your own code in the style of CCBV and CDRF.https://github.com/nanuxbe/django-classy-doc
 
 ### <a id="i18n"></a> Internationalisation (i18n)
 
@@ -309,6 +311,7 @@ _For a complete listing of all available packages, see [Django Packages](https:/
 - [djlint](https://www.djlint.com/) - Lint & Format HTML Templates.
 - [slippers](https://mitchel.me/slippers/) - Build reusable components in Django without writing a single line of Python.
 - [JinjaX](https://jinjax.scaletti.dev/) - Super components powers for your Jinja templates.
+- [django-cotton](https://django-cotton.com/) - Goodbye `{% extends, block, include %}`, Hello `<c-component />`. Bringing modern UI composition to Django.
 
 ### Testing
 - [django-debug-toolbar](https://github.com/jazzband/django-debug-toolbar/) - Configurable panels to debug requests/responses.
